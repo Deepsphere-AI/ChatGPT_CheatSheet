@@ -61,3 +61,9 @@ button.css-1n543e5.edgvbvh10 {
     -webkit-box-align: center;
     align-items: center;
 }
+/* reduce top margin for select functionality */
+.css-ocqkz7.e1tzin5v3 {
+    max-width: 80%;
+    margin-left: 25px;
+    margin-top: -13px;
+}
