@@ -2,7 +2,6 @@ import streamlit as st
 from src.ready_to_response import ready_response
 def role_playing(vAR_input_model):
     w1,col1,col2,w2=st.columns((1.5,2.5,4,.1))
-    w11,col11,col22,w22=st.columns((1.5,2.5,4,.1))
     with col1:
             st.write('# ')
             st.markdown("<p style='text-align: left; color: black; font-size:20px;'><span style='font-weight: bold'>Select Functionality</span></p>", unsafe_allow_html=True)

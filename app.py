@@ -35,7 +35,7 @@ st.markdown("<hr style=height:2.5px;margin-top:0px;background-color:gray;>",unsa
 
 with st.sidebar:
     selected = st.selectbox("",
-                     ['Select Application','ChatGPT Cheat'],key='text')
+                     ['ChatGPT Cheat'],key='text')
     Library = st.selectbox("",
                      ["Library Used","Streamlit","Image","Pandas","Requests"],key='text1')
     Gcp_cloud = st.selectbox("",
