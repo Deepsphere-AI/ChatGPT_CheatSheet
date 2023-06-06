@@ -1,1 +1,1 @@
-# ChatGPT_Cheatsheet
+# ChatGPT-ChatSheet

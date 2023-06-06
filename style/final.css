@@ -47,7 +47,7 @@ button.css-1n543e5.edgvbvh10 {
 
 /* image margin top */
 .block-container.css-z5fcl4.egzxvld4 {
-    margin-top: -50px;
+    margin-top: 0px;
 }
 /* Decreacing width top */
 /* .css-ocqkz7.e1tzin5v3 {
@@ -66,4 +66,12 @@ button.css-1n543e5.edgvbvh10 {
     max-width: 80%;
     margin-left: 25px;
     margin-top: -13px;
+}
+.css-fg4pbf {
+    position: absolute;
+    background: rgb(255, 255, 255);
+    color: rgb(49, 51, 63);
+    inset: 0px;
+    overflow: hidden;
+    margin-top: -10px;
 }
