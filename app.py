@@ -28,7 +28,7 @@ with imcol2:
     st.write("")
 with imcol3:
     st.write("")
-st.markdown("<p style='text-align: center; color: black; margin-top: -20px ; font-size:25px;'><span style='font-weight: bold'>ChatGPT Application: </span>Working with ChatGPT and GPT Models</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; color: black; margin-top: -20px ; font-size:25px;'><span style='font-weight: bold'></span>Working with ChatGPT and GPT Models</p>", unsafe_allow_html=True)
 #st.markdown("<p style='text-align: center; color: blue;margin-top: -15px ;font-size:20px;'><span style='font-weight: bold'></span>ChatGPT Cheatsheet</p>", unsafe_allow_html=True)
 st.markdown("<hr style=height:2.5px;margin-top:0px;background-color:gray;>",unsafe_allow_html=True)
 #---------Side bar-------#
