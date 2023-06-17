@@ -24,17 +24,17 @@ def Chatgpt_Cheat():
             st.write('# ')
             st.markdown("<p style='text-align: left; color: black; font-size:20px;'><span style='font-weight: bold'>Select Model Category</span></p>", unsafe_allow_html=True)
         with col2:
-            vAR_Category = ['Select','Art of prompt','Playing a role','Knowledge','Writing formats','Content Creation','Tone Modifier','Prompting Techniques']
+            vAR_Category = ['Select','Art of prompt','Character Play','Expertise','Writing formats','Content Creation','Tone Modifier','Prompting Methods']
             vAR_input = st.selectbox(' ',vAR_Category)
-        if vAR_input =='Playing a role':
+        if vAR_input =='Character Play':
             role_playing(vAR_input_model)
-        elif vAR_input =='Knowledge':
+        elif vAR_input =='Expertise':
             learn(vAR_input_model)
         elif vAR_input =='Writing formats':
             writing(vAR_input_model)
         elif vAR_input =='Art of prompt':
             How_to_prompt(vAR_input_model)
-        elif vAR_input == 'Prompting Techniques':
+        elif vAR_input == 'Prompting Methods':
             Prompt_technique(vAR_input_model)
         elif vAR_input == 'Tone Modifier':
             Tone_Modifier(vAR_input_model)
