@@ -59,7 +59,7 @@ with st.sidebar:
 #--------------function calling-----------#
 if __name__ == "__main__":
     try:
-        if selected == 'Working with ChatGPT':
+        if selected == 'Interacting with ChatGPT':
             Chatgpt_Cheat()
     except BaseException as error:
         st.error(error)
