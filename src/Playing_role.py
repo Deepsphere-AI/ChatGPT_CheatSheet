@@ -6,36 +6,36 @@ def role_playing(vAR_input_model):
             st.write('# ')
             st.markdown("<p style='text-align: left; color: black; font-size:20px;'><span style='font-weight: bold'>Select Model Functionality</span></p>", unsafe_allow_html=True)
     with col2:
-        vAR_Category_Role_Playing = ['Select','Be like Elon', 'Be like Bill Gates', 'Be like GaryVee', 'Be like an Interviewer', 'Be like Etymologist', 'Be like Pro Marketer', 'Be a Consultant', 'Be an Assistant', 'Be an SEO Specialist', 'Be like a Coder', 'Be like a Human', 'Be like an Selfish Ai Bot']
+        vAR_Category_Role_Playing = ['Select','Be like Warren Buffet', 'Be like Sundar Pichai', 'Be like Stephen Silver', 'Be like an Interviewer', 'Be like Etymologist', 'Be like Pro Marketer', 'Be a Management Consultant', 'Be an Assistant', 'Be an SEO Specialist', 'Be like a Programmer', 'Be like a HR Executive', 'Be like a Self - Centred']
         vAR_input = st.selectbox('',vAR_Category_Role_Playing)
-    if vAR_input == 'Be like Elon':
+    if vAR_input == 'Be like Warren Buffet':
         with col1:
             st.write('# ')
             st.write('# ')
             st.markdown("<p style='text-align: left; color: black; font-size:20px;'><span style='font-weight: bold'>Sample Interaction with the Model</span></p>", unsafe_allow_html=True)
         with col2:
             st.write('# ')
-            st.info("You are Elon Musk, giving a keynote speech at a tech conference, unveiling groundbreaking innovations in your company and discussing your visionary plans for revolutionizing transportation, renewable energy, and space exploration.")
+            st.info("You are Warren Buffet, giving a keynote speech at a tech conference, unveiling groundbreaking innovations in your company and discussing your visionary plans for revolutionizing transportation, renewable energy, and space exploration.")
         ready_response(vAR_input_model)
 
-    elif vAR_input == 'Be like Bill Gates':
+    elif vAR_input == 'Be like Sundar Pichai':
         with col1:
             st.write('# ')
             st.write('# ')
             st.markdown("<p style='text-align: left; color: black; font-size:20px;'><span style='font-weight: bold'>Sample Interaction with the Model</span></p>", unsafe_allow_html=True)
         with col2:
             st.write('# ')
-            st.info("Imagine you are Bill Gates, the co-founder of Microsoft and philanthropist. Share your vision for the future of technology and how you plan to address global challenges through your foundation.")
+            st.info("Imagine you are Sundar Pichai, Google CEO and philanthropist. Share your vision for technology's future and how you plan to address global challenges through your foundation.")
         ready_response(vAR_input_model)
     
-    elif vAR_input == 'Be like GaryVee':
+    elif vAR_input == 'Be like Stephen Silver':
         with col1:
             st.write('# ')
             st.write('# ')
             st.markdown("<p style='text-align: left; color: black; font-size:20px;'><span style='font-weight: bold'>Sample Interaction with the Model</span></p>", unsafe_allow_html=True)
         with col2:
             st.write('# ')
-            st.info("Imagine you are GaryVee, the renowned entrepreneur and motivational speaker. Engage in a conversation with a budding entrepreneur, providing advice and insights on how to build a successful business and navigate the challenges of the entrepreneurial journey.")
+            st.info("You are Stephen Silver, a renowned artist and character designer known for your distinctive style and expertise in creating unique and captivating characters. You receive a message from an aspiring artist seeking advice and guidance on character design. Respond to their message, sharing your insights, tips, and encouragement. Provide feedback on their work, suggest areas for improvement, and inspire them to develop their artistic skills further.")
         ready_response(vAR_input_model)
    
     elif vAR_input == 'Be like an Interviewer':
@@ -68,14 +68,14 @@ def role_playing(vAR_input_model):
             st.info("You are a seasoned marketing professional attending a conference. Engage in a conversation with fellow attendees, discussing the latest marketing trends, strategies, and sharing valuable insights from your experience to inspire and educate others.")
         ready_response(vAR_input_model)
     
-    elif vAR_input == 'Be a Consultant':
+    elif vAR_input == 'Be a Management Consultant':
         with col1:
             st.write('# ')
             st.write('# ')
             st.markdown("<p style='text-align: left; color: black; font-size:20px;'><span style='font-weight: bold'>Sample Interaction with the Model</span></p>", unsafe_allow_html=True)
         with col2:
             st.write('# ')
-            st.info("You are a consultant providing expert advice and solutions for a client's [specific industry or business] challenge. Engage in a conversation with the client, ask probing questions to gather relevant information, and offer strategic recommendations to address their problem effectively.")
+            st.info("You are a Management Consultant providing expert advice and solutions for a client's [specific industry or business] challenge. Engage in a conversation with the client, ask probing questions to gather relevant information, and offer strategic recommendations to address their problem effectively.")
         ready_response(vAR_input_model)
    
     elif vAR_input == 'Be an Assistant':
@@ -98,7 +98,7 @@ def role_playing(vAR_input_model):
             st.info("You are an SEO specialist tasked with improving a website's search engine ranking. Discuss with your client the current state of their website, identify areas for optimization, and provide recommendations on strategies to enhance their online visibility and organic traffic.")
         ready_response(vAR_input_model)
     
-    elif vAR_input == 'Be like a Coder':
+    elif vAR_input == 'Be like a Programmer':
         with col1:
             st.write('# ')
             st.write('# ')
@@ -108,17 +108,17 @@ def role_playing(vAR_input_model):
             st.info("You are a coding specialist helping a beginner programmer troubleshoot their code. Provide step-by-step guidance, explanations, and suggestions to help them identify and resolve the issue they are facing.")
         ready_response(vAR_input_model)
    
-    elif vAR_input == 'Be like a Human':
+    elif vAR_input == 'Be like a HR Executive':
         with col1:
             st.write('# ')
             st.write('# ')
             st.markdown("<p style='text-align: left; color: black; font-size:20px;'><span style='font-weight: bold'>Sample Interaction with the Model</span></p>", unsafe_allow_html=True)
         with col2:
             st.write('# ')
-            st.info("Imagine you are having a casual conversation with a friend at a coffee shop and discuss your recent travel experiences.")
+            st.info("You are an HR executive at a company. You receive a message from an employee seeking guidance and support. Respond to the employee's query professionally and empathetically, providing accurate information and addressing their concerns. Remember to adhere to company policies and maintain confidentiality.")
         ready_response(vAR_input_model)
     
-    elif vAR_input == 'Be like an Selfish AI Bot':
+    elif vAR_input == 'Be like a Self - Centred':
         with col1:
             st.write('# ')
             st.write('# ')
